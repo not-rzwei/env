@@ -1,3 +1,6 @@
 [submodule "xmonad"]
 	path = xmonad
 	url = git@github.com:rshier/xmonad.git
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:rshier/nvim.git
