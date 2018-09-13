@@ -11,6 +11,21 @@ URxvt.urgentOnBell: true
 URxvt.visualBell: false
 URxvt.background: [97]#282828
 
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher: chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u: perl:url-select:select_next
+
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keyboard-select.clipboard: true
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+
 *background: #282828
 *foreground: #ebdbb2
 *color0:  #282828
